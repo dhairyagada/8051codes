@@ -1,0 +1,12 @@
+*.obj
+*._ia
+*.lnp
+*.htm
+*.lst
+*.m51
+*.a51
+*.uvproj
+!.gitignore
+!*.asm
+!*.hex
+!*.md
