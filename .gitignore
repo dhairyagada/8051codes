@@ -1,4 +1,9 @@
+*
+!*/
+!*.*
 *.obj
+*.uvopt
+*.uvgui.dhairya
 *._ia
 *.lnp
 *.htm

@@ -2,7 +2,7 @@ List of the 8051 Programs:
 
 1.		Multiplication of two numbers
 
-2.		Addition of 10 numbers
+2.		Addition of first 10 numbers
 
 3.		Toggle LEDS with AAH and 55H
 
@@ -12,7 +12,7 @@ List of the 8051 Programs:
 
 6.		Generating Triangle Wave
 
-7. 	Generating Staircase Wave
+7.		Generating Staircase Wave
 
 8.		Square Wave Using Timers
 
