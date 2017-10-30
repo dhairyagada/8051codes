@@ -18,7 +18,7 @@ List of the 8051 Programs:
 
 9.		Square Wave Using Timer in mode 2 Auto Reload
 
-10.	Square Wave Using Timer Interrupt
+10.		Square Wave Using Timer Interrupt
 
 11. 	Square Wave Using External Interrupt
 
