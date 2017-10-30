@@ -1,5 +1,7 @@
 org	0x00
 			mov a,#0ffh
+			mov tmod,#02h						;Specifies timer 0 is to be used in mode 2 Auto Reload!
+			mov th0,#0afh
 again:		mov p1,a
 			cpl a
 			acall delay
@@ -7,10 +9,6 @@ again:		mov p1,a
 	
 org	0x300		
 Delay:		
-			mov tmod,#01h						;Specifies timer 0 is to be used in mode 0
-			mov tl0,#0afh
-			mov th0,#0ffh						;Timer Values for 5 Khz frequency at Crystal of 11.0592 MHz
-												;Change this values to change the frequency of wave
 			setb tr0							;Starts timer 0
 			up:
 			jbc tf0,over						;

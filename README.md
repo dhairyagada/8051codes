@@ -14,7 +14,9 @@ List of the 8051 Programs:
 
 7.		Generating Staircase Wave
 
-8.		Square Wave Using Timers
+8A.		Square Wave Using Timer in mode 1
+
+8B.		Square Wave Using Timer in mode 2 Auto Reload
 
 9.		Square Wave Using Timer Interrupt
 
